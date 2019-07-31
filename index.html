@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Menu</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-light navbar-fixed-top">
+         <div class="container">
+           <a href="/">
+               <img style="float:left;" src="https://s3-ap-southeast-2.amazonaws.com/locatersbucket/LUSAPP+Files+for+app/website+images/chiquito.jpg" alt="LUS web app loggo" class="responsive">
+           </a>
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#permits-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+           </button>
+
+           <!-- Collect the nav links, forms, and other content for toggling -->
+           <div class="navbar-collapse collapse in" id="permits-navbar-collapse-1" style="">
+             <ul class="nav navbar-nav">
+                     <li class="nav-item dropdown">
+                       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Administrator</a>
+                       <ul class="dropdown-menu uno" aria-labelledby="navbarDropdownMenuLink" style="display: block;">
+                         <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Companies</a>
+                           <ul class="dropdown-menu dos" style="">
+                             <li><a class="dropdown-item" href="/admin/register_company">Set up Companies</a></li>
+                             <li><a class="dropdown-item" href="/admin/companies_list">Edit Companies</a></li>
+                           </ul>
+                         </li>
+                         <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Projects</a>
+                           <ul class="dropdown-menu dos">
+                             <li><a class="dropdown-item" href="/admin/all_projects/">View/Create/Edit Projects</a></li>
+                             <li><a class="dropdown-item" href="/admin/projects_assignment">Assign Project to Users</a></li>
+                             <li><a class="dropdown-item" href="/admin/ManageProjectsUsers">Project Module Access</a></li>
+                           </ul>
+                         </li>
+                           <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Users</a>
+                           <ul class="dropdown-menu dos">
+                             <li><a class="dropdown-item" href="/admin/create_user_account">Create User Account</a></li>
+                             <li><a class="dropdown-item" href="/admin/view_all_teams">Collaboration Teams</a></li>
+                             <li><a class="dropdown-item" href="/admin/registered_users">Manage Registered Users</a></li>
+                           </ul>
+                          </li><li class="divider"></li>
+                          <li class="dropdown-submenu"><a class="dropdown-item" href="/admin/ManageAdminUsers">Administrator Module Access</a>
+                       </li></ul>
+                     </li>
+
+                     <li class="nav-item dropdown">
+                       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+                       <ul class="dropdown-menu uno" aria-labelledby="navbarDropdownMenuLink">
+
+
+               <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">WestConnex NewM5</a>
+                   <ul class="dropdown-menu dos">
+                       <li class="dropdown-submenu submenu2"><a class="dropdown-item dropdown-toggle" href="#">Deliverables</a>
+                           <ul class="dropdown-menu tres">
+
+                             <li><a class="dropdown-item" href="/projects/all_project_records/4/">Records</a></li>
+
+                             <li><a class="dropdown-item" href="/projects/all_slots_records/4/">Trenches</a></li>
+                             <li><a class="dropdown-item" href="/projects/all_utility_records/4/">Utilities</a></li>
+                           </ul>
+                       </li>
+
+                       <li class="dropdown-submenu submenu2"><a class="dropdown-item dropdown-toggle" href="#">Commercial</a>
+                           <ul class="dropdown-menu tres">
+                               <li><a class="dropdown-item" href="/projects/myDockets/4">My Dockets</a></li>
+
+                                   <li><a class="dropdown-item" href="/projects/allDockets/4">All Dockets</a></li>
+
+                           </ul>
+                       </li>
+
+                   </ul>
+               </li>
+
+               <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Parramatta Light Rail</a>
+                   <ul class="dropdown-menu dos">
+                       <li class="dropdown-submenu submenu2"><a class="dropdown-item dropdown-toggle" href="#">Deliverables</a>
+                           <ul class="dropdown-menu tres">
+
+                             <li><a class="dropdown-item" href="/projects/all_project_records/5/">Records</a></li>
+
+                             <li><a class="dropdown-item" href="/projects/all_slots_records/5/">Trenches</a></li>
+                             <li><a class="dropdown-item" href="/projects/all_utility_records/5/">Utilities</a></li>
+                           </ul>
+                       </li>
+
+                       <li class="dropdown-submenu submenu2"><a class="dropdown-item dropdown-toggle" href="#">Commercial</a>
+                           <ul class="dropdown-menu tres">
+                               <li><a class="dropdown-item" href="/projects/myDockets/5">My Dockets</a></li>
+
+                                   <li><a class="dropdown-item" href="/projects/allDockets/5">All Dockets</a></li>
+
+                           </ul>
+                       </li>
+
+                   </ul>
+               </li>
+
+
+       </ul>
+     </li>
+
+
+                   <li><a href="/admin/logout">Log Out</a></li>
+
+             </ul>
+             <ul class="nav navbar-nav navbar-right">
+
+                 <li><a href="/admin/user_profile">Angel Nino</a></li>
+
+             </ul>
+           </div><!--/.nav-collapse -->
+         </div><!-- /.container -->
+       </nav>
+       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
